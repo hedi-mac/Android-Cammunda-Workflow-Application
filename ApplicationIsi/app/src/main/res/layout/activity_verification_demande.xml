@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10px"
+    android:background="#1201151E"
+    tools:context="tn.scolarite.isi.activity.VerificationDemande">
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="task"
+        android:textColor="@color/black"
+        android:textSize="26dp" />
+
+    <TextView
+        android:id="@+id/tv_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="id"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="18dp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:hint="Nom ">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edt_nom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:hint="Prenom ">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edt_prenom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:hint="Motif ">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edt_motif"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:hint="Niveau ">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edt_niveau"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="8dp">
+        <TextView
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:text="Valider"
+            android:textColor="@color/black"
+            android:textSize="18dp" />
+
+        <com.google.android.material.checkbox.MaterialCheckBox
+            android:id="@+id/chk_valider"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHighlight="@android:color/holo_blue_dark"
+            android:textColorLink="@android:color/holo_blue_dark" />
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/btn_submit"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="180dp"
+        android:layout_height="55dp"
+        android:layout_margin="8dp"
+        android:layout_gravity="right"
+        android:text="Submit"/>
+</LinearLayout>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">ISI</string>
+    <string name="get_city_id">Get City ID</string>
+    <string name="city_name">City Name</string>
+    <string name="weather_by_name">Weather by Name</string>
+    <string name="weather_by_id">Weather by ID</string>
+    <string name="show_city_id">Show City ID</string>
+    <string name="city_id_city_name">City ID / City Name</string>
+    <string name="text">text</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+</resources>

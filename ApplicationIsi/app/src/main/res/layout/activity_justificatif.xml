@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10px"
+    android:background="#1201151E"
+    tools:context="tn.scolarite.isi.activity.VerificationDemande">
+
+    <TextView
+        android:id="@+id/tv_name_just"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="task"
+        android:textColor="@color/black"
+        android:textSize="26dp" />
+
+    <TextView
+        android:id="@+id/tv_id_just"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="id"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="18dp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:hint="Nom ">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edt_nom_just"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:hint="Prenom ">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edt_prenom_just"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:hint="Motif ">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edt_motif_just"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:hint="Niveau ">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edt_niveau_just"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:hint="Justificatif ">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edt_justificatif"
+            android:layout_width="match_parent"
+            android:inputType="text|textMultiLine"
+            android:gravity="top"
+            android:layout_height="100dp"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <Button
+        android:id="@+id/btn_submit_just"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="180dp"
+        android:layout_height="55dp"
+        android:layout_margin="8dp"
+        android:layout_gravity="right"
+        android:text="Submit"/>
+
+</LinearLayout>
